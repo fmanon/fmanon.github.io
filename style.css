@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+.activeLink {
+  color: gold;
+  text-decoration: underline;
+}
+
+#PageHeader {
+  position: absolute;
+  left: 1573px;
+  top: 65px;
+  overflow: hidden;
+  width: 282px;
+  height: 64px;
+  text-align: center;
+  font-family: Sitka Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(155, 155, 155, 1);
+}
+#PageTitle {
+  position: absolute;
+  left: 1573px;
+  top: 129px;
+  overflow: hidden;
+  width: 300px;
+  height: 43px;
+  text-align: center;
+  font-family: Sitka Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: rgba(126, 126, 126, 1);
+}
+
+#MenuBlock {
+  position: absolute;
+  float: left;
+  width: 385px;
+  height: 100%;
+  left: -3%;
+  top: 0px;
+  overflow: visible;
+  position: fixed;
+  background-color: black;
+}
+
+#MenuBlock1 {
+  float: left;
+  width: 385px;
+  height: 100%;
+  left: -3%;
+  top: 0px;
+  overflow: visible;
+  position: fixed;
+  background-color: black;
+}
+
+#PageContent {
+  float: left;
+  height: 100%;
+  margin-left: 25%;
+  margin-right: 5%;
+  width: 70%;
+  overflow: visible;
+}
+
+#logo {
+  position: absolute;
+  overflow: visible;
+  width: 120px;
+  height: 187px;
+  left: 175px;
+  top: 35px;
+}
+
+#MainTitle1 {
+  left: 17px;
+  margin-top: 60%;
+  overflow: hidden;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#PageLinks {
+  width: 100%;
+  height: 50%;
+  margin-top: 5%;
+  float: left;
+}
+
+.titleContent {
+  padding-left: 25%;
+}
+
+.menuItems {
+  left: 17px;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-left: 25%;
+  overflow: hidden;
+  height: 50px;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Copyright {
+  position: absolute;
+  left: 17px;
+  bottom: 2%;
+  overflow: hidden;
+  width: 436px;
+  height: 43px;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Introduction {
+  left: 17px;
+  margin-top: 5%;
+  overflow: hidden;
+  height: 42px;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+
+th,
+table,
+td {
+  font-style: normal;
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  font-size: 22px;
+}
+
+td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#Visual_Page {
+  position: absolute;
+  box-sizing: border-box;
+  background: #E5E5E5;
+  width: 100%;
+  height: 4000px;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  --web-view-name: Visual Page;
+  --web-view-id: Visual_Page;
+  --web-enable-deep-linking: true;
+}
+
+#DevSpecs {
+  position: absolute;
+  left: 515px;
+  top: 200px;
+  overflow: hidden;
+  width: 706px;
+  height: 350px;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#Development_Process {
+  position: absolute;
+  left: 515px;
+  top: 600px;
+  overflow: hidden;
+  width: 1300px;
+  height: 7500px;
+}
+
+#imageDescription {
+  width: 100%;
+  float: left;
+  height: 500px;
+}
